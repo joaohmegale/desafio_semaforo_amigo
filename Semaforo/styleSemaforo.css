@@ -1,0 +1,47 @@
+
+body{
+    background: silver;
+    margin: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+button{
+    display: flex;
+    height: 30px;
+    border-radius:10px;
+    background-color: gold;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+.semaforo{
+    background-color:rgb(25, 21, 21);
+    width: 100px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.light{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#red{
+    background-color: rgb(108, 72, 72);
+}
+#yellow{
+    background-color:rgb(123, 123, 67);
+}
+#green{
+    background-color: rgb(67, 112, 67);
+}

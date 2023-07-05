@@ -1,0 +1,16 @@
+BODY{background-color : azure}
+
+body{
+    font-family: serif;
+    margin: 0px;
+}
+
+h1{
+    color: gray;
+}
+
+.font-size-index{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
